@@ -1,0 +1,25 @@
+body{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(168, 163, 156);
+}
+.container{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.stripes{
+    height: 400px;
+    width: 300px;
+}
+.blue{
+    background-color: rgb(7, 7, 139);
+}
+.red{
+    background-color: red;
+}
+.white{
+    background-color: white;
+}

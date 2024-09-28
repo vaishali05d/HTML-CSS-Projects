@@ -1,0 +1,30 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: black;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.circle{
+    background-color: lightgray;
+    border-radius: 50%;
+    width: 5%;
+    height: 10%;
+    margin: 10px;
+    animation: pulse infinite alternate 1s;
+}
+@keyframes pulse {
+    from{
+          background-color: lightgray;
+    }
+    to{
+          background-color: darkgray;
+          width: 6%;
+          height: 11%;
+    }
+}

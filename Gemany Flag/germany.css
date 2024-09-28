@@ -1,0 +1,27 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+:root{
+    --yellow: rgb(219, 164, 10);
+    --black: black;
+    --brown: rgb(211, 40, 40);
+    --flag-height: 500px;
+}
+.container{
+    margin: 100px auto;
+    height: var(--flag-height);
+    display: grid;
+    width: calc(var(--flag-height)*5/3);
+}
+
+.black{
+    background-color:var(--black);
+}
+.yellow{
+    background-color: var(--yellow);
+}
+.brown{
+    background-color: var(--brown);
+}

@@ -1,0 +1,40 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.sentence h1{
+    font-size: 70px;
+}
+.sentence h1:after{
+    content: "";
+    background-color: rgb(23, 171, 230);
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    animation: swap 6s infinite;
+}
+@keyframes swap {
+    0%{
+           content: "Coding";
+    }
+    25%{
+        content: "Drawing";
+    }
+    50%{
+        content: "Badminton";
+    }
+    75%{
+        content: "Music";
+    }
+    100%{
+        content: "Coding";
+    }
+    
+}

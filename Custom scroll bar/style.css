@@ -1,0 +1,28 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: crimson;
+}
+.card{
+    font-family:Arial, Helvetica, sans-serif ;
+    background-color: bisque;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 50px;
+    text-indent: 10px;
+    text-shadow: 1px 1px rgb(216, 215, 215);
+}
+.card-title{
+    font-family: cursive;
+}
+::-webkit-scrollbar{
+    background-color:chocolate;
+    width: 20px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: burlywood;
+    border-radius: 50px;
+}

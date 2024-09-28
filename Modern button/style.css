@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --font-family: 'karla', sans-serif;
+    --body-bg: #1e1f25;
+    --btn-bg: #000;
+    --btn-color: #cbcbcb;
+    --btn-color-hover: #fff;
+    --grad-color1: #eeaf61;
+    --grad-color2: #fb9062;
+    --grad-color3: #ee5d6c;
+    --grad-color4: #ce4993;
+    --grad-color5: #6a0d83;
+
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: rgb(56, 50, 50);
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.button .btn{
+    border-image: linear-gradient(115deg,var(--grad-color1),var(--grad-color2),var(--grad-color3),var(--grad-color4),var(--grad-color5)) 1;
+    border-width: 4px;
+    border-style: solid;
+}
+.btn button{
+    padding: 10px;
+    font-size:large ;
+    background-color: rgb(24, 21, 21);
+    color: rgb(201, 196, 196);
+    font-family: noto sans;  
+    border: none;  
+}
+.btn button:hover{
+    width: 150px;
+    height: 50px;
+}
+.btn:hover{
+    background-color: rgb(61, 58, 58);
+    color: white;
+    border-image: linear-gradient(230deg,var(--grad-color1),var(--grad-color2),var(--grad-color3),var(--grad-color4),var(--grad-color5)) 1;
+}
